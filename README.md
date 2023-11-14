@@ -23,7 +23,7 @@ I have noticed that using the same useEffect() methods on JSON Server is able to
       });
   }, []);
 
-Surprisingly, I have noticed that using the same useEffect() methods MySQL Server is unable to return data both in console and form fields and the method is as below:
+Surprisingly, I have noticed that using the same useEffect() methods on Spring Boot Backend & MySQL Server is unable to return data both in console and form fields even tho the postman rest api returns data successfully and the method is as below:
 
   useEffect(() => {
     UsersService.findUserById_mysql(id)
